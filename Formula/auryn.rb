@@ -9,22 +9,22 @@ class Auryn < Formula
   on_macos do
     on_arm do
       url "https://github.com/kevinquillen/auryn/releases/download/v#{version}/auryn-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "dafdf84b6d2c2b92ab9a0610f6deb2a3f989e5dffd319d725fee88de6a3ce33e"
+      sha256 "1bbf715bad9e8b0985c6f15423bc1a56041bfa05ddae48ebd93c4bebd512c797"
     end
     on_intel do
       url "https://github.com/kevinquillen/auryn/releases/download/v#{version}/auryn-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "ba42860eb3bb3f3681d48a31bfa7c30c96e9404ac665d52b2d416aac5c1c4f8c"
+      sha256 "61ef8eb3ad785d9b5002c4d24411a05778d19f9a6ed330566afc168c1cb2b441"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/kevinquillen/auryn/releases/download/v#{version}/auryn-v#{version}-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "8eed597f495b2b7705d0c0c009621f42b6930e0c76b2225a6b69dac06436ddd6"
+      sha256 "2e37cd2502785e225eb3f3accfd417277bac0658b061c9c5498ef042eec277ab"
     end
     on_intel do
       url "https://github.com/kevinquillen/auryn/releases/download/v#{version}/auryn-v#{version}-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "1a6af4ce466077711ad2d9a38dcff972f83fa5f6c4ab0bd440d089e5dd76e973"
+      sha256 "d09d32b617e667a87c4877a565793b05af08e3d20711f1427a0d71514ec47af3"
     end
   end
 
