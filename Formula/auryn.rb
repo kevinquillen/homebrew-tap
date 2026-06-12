@@ -3,28 +3,28 @@
 class Auryn < Formula
   desc "Browse, search, preview, and resume AI coding sessions from the terminal"
   homepage "https://github.com/kevinquillen/auryn"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/kevinquillen/auryn/releases/download/v#{version}/auryn-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "1bbf715bad9e8b0985c6f15423bc1a56041bfa05ddae48ebd93c4bebd512c797"
+      sha256 "13778686cb88dca20be7cc7a1409c9f3c2e76b4389e1ea4d0ede93ab46ee73f2"
     end
     on_intel do
       url "https://github.com/kevinquillen/auryn/releases/download/v#{version}/auryn-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "61ef8eb3ad785d9b5002c4d24411a05778d19f9a6ed330566afc168c1cb2b441"
+      sha256 "db8b137748976a9be4b7869621feffd3d340af7cb4e74a8a31da65b53c88866d"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/kevinquillen/auryn/releases/download/v#{version}/auryn-v#{version}-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "2e37cd2502785e225eb3f3accfd417277bac0658b061c9c5498ef042eec277ab"
+      sha256 "3c9020aa4bca7cff9d56312c170e90b76a6c86d3c9ecc7ff6ffc2cb39c2e1e33"
     end
     on_intel do
       url "https://github.com/kevinquillen/auryn/releases/download/v#{version}/auryn-v#{version}-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "d09d32b617e667a87c4877a565793b05af08e3d20711f1427a0d71514ec47af3"
+      sha256 "d47f3ffb3d3c26615db997b4a703f311feb65dfb562f3434419f04ac3acec536"
     end
   end
 
