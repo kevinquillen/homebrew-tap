@@ -1,28 +1,30 @@
+# Homebrew formula template for Hoi.
+
 class Hoi < Formula
   desc "Cross-platform command runner for development teams"
   homepage "https://github.com/kevinquillen/hoi"
-  version "0.7.1"
+  version "0.7.2"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/kevinquillen/hoi/releases/download/v#{version}/hoi-macOS-arm64.tar.gz"
-      sha256 "9b2fe5354e16990ab2a432480de34cc03ebe81c05bccacee44adfdef2de84083"
+      sha256 "90886cb5a235338efe9b9229d4d7ea560f00f1b869ed5eeb88a6888caad16303"
     end
     on_intel do
       url "https://github.com/kevinquillen/hoi/releases/download/v#{version}/hoi-macOS-x86_64.tar.gz"
-      sha256 "6b2cda61fa376f4bfdab61fa66dd4d6b0284e0f04abc29f7b8343cc6bb36e495"
+      sha256 "7607ec94b0c35d391bad0b1459e4c1128f4dc77cdf7e42ba9b8c5f766fb1035b"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/kevinquillen/hoi/releases/download/v#{version}/hoi-Linux-musl-arm64.tar.gz"
-      sha256 "5124a84f3820a002f8a06bf6b35205b34c5c92b83fb927e42bf06102ee6820d8"
+      sha256 "cbf9e78651c35cfa29820d816a0694c7dccf41a5c8c73d4cb8f03b96dc3d06e0"
     end
     on_intel do
       url "https://github.com/kevinquillen/hoi/releases/download/v#{version}/hoi-Linux-musl-x86_64.tar.gz"
-      sha256 "189398124fc77b775093ab62f82ee4a41da0e983e2910daef106fb5b56000cf0"
+      sha256 "cfa8f097059b055fbf536a7dfca23cbfbd0227a71b5e6ebabdf967e2aa34349f"
     end
   end
 
